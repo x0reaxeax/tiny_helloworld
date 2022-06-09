@@ -2,11 +2,10 @@ global _start
 section .text
 
 _start:
-    push 0x3c
-    inc al
-    inc edi
-    add edx, 14
-    mov esi, 0x400078
+    inc      al
+    inc     edi
+    add     edx, 0xe
+    mov     esi, 0x40008a
     syscall
-    pop rax
+    xor      al, 0x32
     syscall
