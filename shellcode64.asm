@@ -4,8 +4,8 @@ section .text
 _start:
     inc      al
     inc     edi
-    add     edx, 0xe
-    mov     esi, 0x40008a
+    mov      dl, 0xe
+    mov     esi, 0x400089
     syscall
     xor      al, 0x32
     syscall

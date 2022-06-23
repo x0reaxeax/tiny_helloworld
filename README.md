@@ -10,8 +10,8 @@ Smallest "Hello World" ELF executable I was able to produce without the use of a
 **x86_64**: `make main64`  
 
 ## Results
-**ELF_i386:** 114 bytes  
-**ELF_x86_64:** 151 bytes  
+**ELF_i386:** 113 bytes  
+**ELF_x86_64:** 150 bytes  
 
 
 > Written with [StackEdit](https://stackedit.io/).
